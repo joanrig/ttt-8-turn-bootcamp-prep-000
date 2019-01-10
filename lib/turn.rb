@@ -40,6 +40,7 @@ end
 
 def turn(board)
   display_board(board)
+  
   puts "Please enter 1-9:"
   input = gets
   index = input_to_index(input)
