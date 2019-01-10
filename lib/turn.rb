@@ -37,7 +37,7 @@ def valid_move?(board, index)
   end
 end
 
-def turn(board)
+def turn
   puts "Please enter 1-9:"
   display_board
   input = gets
