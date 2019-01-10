@@ -46,7 +46,6 @@ def turn(board)
     move(board, index, value = "X")
   else
     puts "Invalid move."
-    display board
     turn(board)
   end
 end
