@@ -42,7 +42,7 @@ def turn(board)
   loop do input = gets
     index = input_to_index(input)
     if valid_move?(board, index)
-      move(board, index, a_value)
+      move(board, index, value = "X")
     else
       puts "Invalid move, Please enter 1-9:"
     end
