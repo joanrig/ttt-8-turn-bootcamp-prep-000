@@ -39,7 +39,6 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  display_board
   input = gets
   index = input_to_index(input)
       
@@ -47,6 +46,7 @@ def turn(board)
     move(board, index, value = "X")
   else
     puts "Invalid move."
+    display board
     turn(board)
   end
 end
